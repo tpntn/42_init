@@ -5,10 +5,19 @@
 #In red:	a deduction, written in your own words
 
 Todo:
- = before submit, make sure all scripts can be executes
+ - before submit, make sure all scripts can be executes
 
 Some (maybe) usefull commands:
- = man top
- = man df
- = man ifconfig
- = arp -a
+ - top
+ - df
+ - ifconfig
+ - arp -a
+ - ps
+ - kill
+ - ping
+ - netstat
+ - route
+ - traceroute
+ - hosts
+ - networks
+ - 
