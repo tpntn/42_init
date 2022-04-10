@@ -1,0 +1,3 @@
+ifconfig -l
+
+#ifconfig | sed -n -e '/[0-9]: / p' | cut -d ':' -f 1
