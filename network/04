@@ -1,0 +1,2 @@
+#identify the default gateway in the routing table
+route get default | grep 'gateway' | cut -d ' ' -f 6

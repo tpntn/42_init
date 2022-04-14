@@ -1,1 +1,4 @@
+#identify broadcast address (for en0 interface)
+ifconfig en0 | grep 'broadcast' | cut -d ' ' -f 6
+#indentidy all IP adresses which are part of the same subnet
 arp -a
