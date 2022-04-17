@@ -20,4 +20,7 @@ Some (maybe) usefull commands:
  - traceroute
  - hosts
  - networks
- - 
+ -
+
+change user in terminal
+	su [username] 
