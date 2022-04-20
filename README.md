@@ -23,4 +23,7 @@ Some (maybe) usefull commands:
  -
 
 change user in terminal
-	su [username] 
+	su [username]
+	
+https://www.sciencedirect.com/topics/computer-science/traceroute-comman
+https://www.youtube.com/watch?v=pCcJFdYNamcd 
