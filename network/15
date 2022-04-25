@@ -1,2 +1,3 @@
 # modify /etc/hosts files to contain ip and required address.
+# '''sudo killall -HUP mDNSResponder''' this will erase DNS records.
 # check with traceroute or curl what is the outcome
