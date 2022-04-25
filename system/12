@@ -1,0 +1,2 @@
+#in macOs, --max-depth should be replaced by -d 1
+sudo du -h --max-depth=1 /var
