@@ -1,0 +1,2 @@
+# modify /etc/hosts files to contain ip and required address.
+# check with traceroute or curl what is the outcome

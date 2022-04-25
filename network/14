@@ -1,0 +1,2 @@
+# man host -> etc/resolv.conf
+# find /etc resolv.conf shows, that the file might be also in some other place.
