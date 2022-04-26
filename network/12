@@ -6,3 +6,5 @@
 #network configuration parameters to each device on a network 
 #so they can communicate with other IP networks.
 
+#! /bin/bash
+ifconfig en0 | grep 'inet ' | awk '{print $2}'
