@@ -1,0 +1,6 @@
+#! /bin/bash
+#These processes are called daemons ("day-mon")
+#These are in /etc/init.d -folder
+#https://itsfoss.com/linux-daemons/
+#List all running daemons: '
+sudo service --status-all
