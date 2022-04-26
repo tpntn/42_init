@@ -1,0 +1,2 @@
+#With ssh, find ip of the VM (arp -a etc) and the ssh to the machine using username@hostname
+#With graphic session, just login :)
