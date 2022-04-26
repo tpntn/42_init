@@ -1,0 +1,14 @@
+# cronjobs
+# https://ostechnix.com/a-beginners-guide-to-cron-jobs/
+# FORMAT
+# min hour dayofmonth month dayofweek <command to execute>
+
+#crontab -l : display contab file of the currently logged in user
+#contab -u username -l
+
+#crontab -e : edit tasks
+
+#EXAMPLES
+# * * * * * <command> : run command every minute
+# 30 * * * * <command> : run command every hour at minute 30
+# */15 * * * * <command> : run command every 15th minute
