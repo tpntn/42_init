@@ -1,0 +1,13 @@
+while true
+do
+	echo "Enter input"
+	read userinput
+
+	if [ $userinput == "q" -o $userinput == "Q" ]
+	then
+		echo "Quitting"
+		break
+	else
+		echo $userinput continuing
+	fi
+done
