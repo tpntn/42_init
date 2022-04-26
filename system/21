@@ -1,3 +1,5 @@
 #! /bin/bash
 # Real users have UID 1000-9999
-cat /etc/passwd | awk -F : '$3 >= 1000 && $3 < 10000 {print $1}'
+# also possible with awk -F: 'xxxxx' /etc/passwd
+#check UID_MIN and UID_MAX from /etc/login.defs
+cat /etc/passwd | awk -F : '$3 >= 1000 && $3 < 10000 && $3 != "nobody" {print $1}'
