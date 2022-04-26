@@ -1,0 +1,2 @@
+user=$(whoami)
+sudo userdel $user
