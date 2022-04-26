@@ -1,2 +1,16 @@
-user=$(whoami)
-sudo userdel $user
+# https://www.cyberciti.biz/faq/linux-remove-user-command/
+#! /bin/bash
+
+echo 'Select user to remove'
+who | awk '{print $1}'
+read user_to_del
+if [ $user_to_del != 'root' ]
+then
+	sudo usermod --expiredate 1 $user_to_del
+	sudo killall -KILL -u $user_to_del
+	sudo crontab -r -u $user_to_del
+	sudo userdel -r $user_to_del
+	echo 'User deleted succesfully'
+else
+	echo 'Do not delete root!'
+fi
