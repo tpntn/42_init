@@ -1,2 +1,2 @@
 #identify the IP address of the DNS that responds to the followinf url: who.int
-whois who.int | grep 'nserver' | head -1 | cut -d ' ' -f 8
+host -ta who.int
