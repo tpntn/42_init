@@ -1,0 +1,19 @@
+#Usage
+#	create alias in ~/.bashrc file
+#	source .bashrc
+#	create cront
+
+#! /bin/bash
+find ~/Hive/workplace -type d -name '.git' -exec dirname {} \; > folders
+while read line
+do
+	date=$(date +%Y-%m-%d-%HH:%MM)
+	cd $line
+	git status
+	echo $date
+	git add *
+	git commit -m "automated backup $date"
+	echo "Automated backup for $(basename $line) created at $date" >> ~/backup_log
+	cd -
+done < folders
+rm folders
