@@ -1,2 +1,3 @@
 #Get the complete path of the file that contains the IP address of the DNS server you`r using
 #/var/run/resolv.conf
+#/etc/resolv.conf
