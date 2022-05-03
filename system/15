@@ -1,1 +1,2 @@
-# https://www.cyberciti.biz/faq/find-out-what-processes-are-running-in-the-background-on-linux/kill $(top | grep -w -m 1 ping | awk '{print $1}')
+# https://www.cyberciti.biz/faq/find-out-what-processes-are-running-in-the-background-on-linux/
+kill $(top | grep -w -m 1 ping | awk '{print $1}')
